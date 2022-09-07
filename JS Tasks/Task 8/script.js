@@ -7,22 +7,22 @@ division(a, b) - priima du skaičius ir grąžina jų dalybos rezultatą;
 ------------------------------------------------------------------------------------ */
 
 function Calculator() {
-  this.values = function () {
+  this.values = () => {
     this.a = +prompt("enter a number", 0);
     this.b = +prompt("enter another number", 0);
   };
 
-  this.sum = function () {
+  this.sum = () => {
     return this.a + this.b;
   };
 
-  this.sub = function () {
+  this.sub = () => {
     return this.a - this.b;
   };
-  this.mul = function () {
+  this.mul = () => {
     return this.a * this.b;
   };
-  this.div = function () {
+  this.div = () => {
     return this.a / this.b;
   };
 }
