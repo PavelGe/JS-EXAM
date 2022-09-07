@@ -24,7 +24,7 @@ function getUserAverageAge(array) {
   const objCount = users.length;
   const sumOfAge = users.reduce((sum, current) => sum + current.age, 0);
   const result = sumOfAge / objCount;
-  console.log(result);
+  console.log("average age is:", result);
 }
 getUserAverageAge(users);
 

@@ -31,10 +31,11 @@ submitBtn.addEventListener("click", (e) => {
     style.innerHTML = ` 
   #output {
     background-color: white;
-    width: 20%;
+    width: 30%;
     margin-left: 30rem;
     padding: 3rem;
-    font-size: 2em;
+    font-size: 3em;
+    font-family: monospace;
   }
   `;
     document.head.appendChild(style);
